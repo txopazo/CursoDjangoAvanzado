@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043a8e50-f23f-476c-8ed8-3b27ae4997dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SistemaDiscusiones/templates/base.html" afterPath="$PROJECT_DIR$/SistemaDiscusiones/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SistemaDiscusiones/SistemaDiscusiones/settings/base.py" afterPath="$PROJECT_DIR$/SistemaDiscusiones/SistemaDiscusiones/settings/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SistemaDiscusiones/templates/home/index.html" afterPath="$PROJECT_DIR$/SistemaDiscusiones/templates/home/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SistemaDiscusiones/apps/users/models.py" afterPath="$PROJECT_DIR$/SistemaDiscusiones/apps/users/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SistemaDiscusiones/apps/users/views.py" afterPath="$PROJECT_DIR$/SistemaDiscusiones/apps/users/views.py" />
     </list>
     <ignored path="CursoDjangoAvanzado.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,10 +86,12 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/apps/users/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="750">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+                <marker date="1424289467662" expanded="true" signature="1310:1330" placeholder="..." />
+                <marker date="1424289467662" expanded="true" signature="1310:1330" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -96,8 +100,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61072665" vertical-offset="82" max-vertical-offset="1155">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.24021353" vertical-offset="0" max-vertical-offset="870">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -112,12 +116,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SistemaDiscusiones/apps/users/models.py" />
+        <option value="$PROJECT_DIR$/SistemaDiscusiones/templates/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="26" />
+    <option name="x" value="50" />
+    <option name="y" value="18" />
     <option name="width" value="1302" />
     <option name="height" value="719" />
   </component>
@@ -524,11 +529,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="26" width="1302" height="719" extended-state="0" />
-    <editor active="false" />
+    <frame x="50" y="18" width="1302" height="719" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24884793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2488336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -615,10 +620,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/apps/users/models.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="750">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1424289467662" expanded="true" signature="1310:1330" placeholder="..." />
+            <marker date="1424289467662" expanded="true" signature="1310:1330" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/SistemaDiscusiones/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/apps/home/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/apps/home/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/apps/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/apps/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+            <marker date="1424289467662" expanded="true" signature="1310:1330" placeholder="..." />
+            <marker date="1424289467662" expanded="true" signature="1310:1330" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -669,18 +740,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/apps/users/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="750">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+            <marker date="1424289467662" expanded="true" signature="1310:1330" placeholder="..." />
+            <marker date="1424289467662" expanded="true" signature="1310:1330" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SistemaDiscusiones/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61072665" vertical-offset="82" max-vertical-offset="1155">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.24021353" vertical-offset="0" max-vertical-offset="870">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
