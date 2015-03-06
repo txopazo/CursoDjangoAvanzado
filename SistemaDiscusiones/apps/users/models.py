@@ -29,6 +29,7 @@ class User(AbstractBaseUser,PermissionsMixin):
 	first_name = models.CharField(max_length=100)
 	last_name = models.CharField(max_length=100)
 	avatar = models.URLField()
+	status = models.BooleanField(default=False)
 
 	objects = UserManager()
 
